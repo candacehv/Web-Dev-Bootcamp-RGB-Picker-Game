@@ -1,0 +1,44 @@
+body {
+    background: black;
+}
+
+.color-box {
+    border-radius:  5px;
+    margin: 7px;
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    background: rgb(100, 140, 195);
+    font-size:  34px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+    text-transform: uppercase;  
+    font-weight: 100;
+}
+
+h1 span {
+    font-size:  56px;
+    font-weight: 400;
+
+}
+
+#menuBar {
+    background: white;
+    color:  rgb(100, 140, 195);
+    font-weight:700;
+    padding-bottom: 3px;
+    padding-top: 3px;
+
+}
+
+#easy:hover, #hard:hover, #restart:hover {
+    background: rgb(100, 140, 195);
+    color: white;
+}
+
+.hidden-box {
+    background: black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Color Game!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="color_game.css">
+</head>
+<body>
+        <div id="headerBar">   
+            <h1 class="text-center">The Great <br/><span>RGB(<span id="redID">0</span>, <span id="greenID">0</span>, <span id="blueID">0</span>)</span> <br/>Guessing Game
+            </h1>
+        </div>
+        <section id="menuBar" class="d-flex justify-content-around">  
+            <div id="restart" class="px-2">New Colors</div>
+            <div id="guessResult"></div>
+            <div class="d-flex">
+                <div id="easy" class="px-2">Easy</div>
+                <div id="hard" class="px-2">Hard</div>
+            </div>
+        </section>
+        <section id="gameSection" class="d-flex flex-column align-items-center mt-3">
+            <div class="d-flex flex-column col-4"></div>
+            <div class="d-flex flex-column col-4">
+                <div class="d-flex">
+                    <div id="box1" class="col-4 color-box box-row-1"></div>
+                    <div id="box2" class="col-4 color-box box-row-1"></div>
+                    <div id="box3" class="col-4 color-box box-row-1"></div>
+                </div>
+                <div class="d-flex">
+                    <div id="box4" class="col-4 color-box box-row-2"></div>
+                    <div id="box5" class="col-4 color-box box-row-2"></div>
+                    <div id="box6" class="col-4 color-box box-row-2"></div>
+                </div>
+            </div>
+
+        </section>
+    <script type="text/javascript" src="color_game.js"></script>
+</body>
+</html>
